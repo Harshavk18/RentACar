@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main11Activity">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="26dp"
+        android:text="THANK YOU"
+        android:textSize="30dp"
+        android:textColor="@android:color/background_dark"
+        android:background="#EFEFEE"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="77dp"
+        android:background="#EFEFEE"
+        android:text="Have a joyful ride!🙏🙏"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="228dp"
+        android:background="#EFEFEE"
+        android:text="If you have any queries please contact the number below"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/call1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="109dp"
+        android:text="call"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/pno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="175dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="9494962349" />
+
+
+    <Button
+        android:id="@+id/gps1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:text="GPS"
+        android:layout_alignRight="@+id/textView11" />
+
+
+</RelativeLayout>
